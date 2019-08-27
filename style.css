@@ -1,25 +1,10 @@
+/* Main Styliing */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 a {
     text-decoration: none;
-}
-
-.left-column {
-    width: 300px;
-    text-align: right;
-    padding-right: 20px;
-}
-
-.right-column {
-    border-left: blue 2px solid;
-    padding-left: 20px;
-    background-color: rgb(255, 255, 240);
-    box-shadow: 3px 3px 10px grey;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-
 }
 
 img {
@@ -29,10 +14,58 @@ img {
     box-shadow: 3px 3px 10px grey;
 }
 
+/* Table Styling */
+.left-column {
+    width: 300px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.right-column {
+    border-left: blue 2px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(255, 255, 240);
+    box-shadow: 3px 3px 10px grey;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
 .colspan {
     display: none;
 }
 
 .right-column.name {
     background-color: #f1eeee;
+}
+
+.left-column.skills, .left-column.experience, .left-column.education {
+    text-align: center;
+    vertical-align: center;
+}
+
+.div-skills, .div-experience, .div-education {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    box-shadow: 3px 3px 10px grey;
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+    display: grid;
+    grid-auto-columns: 1fr;
+    justify-content: space-between;
+}
+
+tbody {
+    display: grid;
+    grid-auto-columns: 1fr;
+    justify-content: space-between;
+    grid-gap: 20px;
+}
+
+.description {
+    color: grey;
+    font-weight: lighter;
 }
