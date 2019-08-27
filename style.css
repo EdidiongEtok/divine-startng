@@ -15,7 +15,7 @@ a {
 .right-column {
     border-left: blue 2px solid;
     padding-left: 20px;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 240);
     box-shadow: 3px 3px 10px grey;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -34,5 +34,5 @@ img {
 }
 
 .right-column.name {
-    background-color: #e8e8e8;
+    background-color: #f1eeee;
 }
